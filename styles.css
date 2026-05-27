@@ -1360,3 +1360,40 @@ a:hover { color: var(--primary); }
     padding: 1.4em 1.3em;
   }
 }
+
+/* ============================================
+   v1.7 — Ajuste 4 (testimonials: 6 cards + caso lento)
+   Implementado 2026-05-26
+   ============================================ */
+
+/* Grid 3-col em desktop pra 6 cards (2 rows × 3) */
+@media (min-width: 1080px) {
+  .testimonials-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Card de contraste — caso lento (endereça Curva Escalonada) */
+.testimonial-contraste {
+  background: linear-gradient(180deg, var(--bg-card) 0%, var(--accent-10) 100%);
+  border-top: 3px solid var(--accent);
+  position: relative;
+}
+.t-contraste-tag {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--primary-deep);
+  padding: .3em .9em;
+  border-radius: 30px;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 1em !important;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.4;
+  align-self: flex-start;
+}
+
+/* Mobile tweak v1.7 */
+@media (max-width: 600px) {
+  .t-contraste-tag { font-size: .64rem; }
+}
