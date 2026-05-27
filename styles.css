@@ -344,6 +344,12 @@ a:hover { color: var(--primary); }
   border: 1px solid rgba(200, 160, 92, .3);
   border-radius: var(--radius-lg);
   padding: 1.6em 1.4em;
+  transition: transform var(--t), border-color var(--t), box-shadow var(--t);
+}
+.level-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 .level-tag {
   display: inline-block;
@@ -359,7 +365,22 @@ a:hover { color: var(--primary); }
 }
 .level-card h4 { color: var(--bg) !important; font-size: 1.15rem; font-family: 'Inter', sans-serif; font-weight: 700; margin-bottom: .4em; }
 .level-time { color: var(--accent-soft) !important; font-weight: 600; font-size: .92rem; margin-bottom: .8em !important; }
-.level-card p { font-size: .96rem; line-height: 1.55; }
+.level-card p { font-size: .96rem; line-height: 1.55; margin-bottom: 0; }
+.level-card img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-top: 1.2em;
+  opacity: 0.85;
+  border: 1px solid rgba(200, 160, 92, 0.2);
+  transition: opacity var(--t), transform var(--t);
+}
+.level-card:hover img {
+  opacity: 1;
+  transform: scale(1.02);
+}
 .level-total { text-align: center; font-size: 1.08rem; margin-top: 2em !important; color: rgba(250, 250, 247, .85) !important; }
 .level-total strong { color: var(--accent-soft); }
 
