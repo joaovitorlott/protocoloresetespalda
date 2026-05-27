@@ -79,4 +79,13 @@
       // window.dataLayer && window.dataLayer.push({event:'cta_click', id});
     });
   });
+
+  // Interatividade do Diagrama da Cadeia Causal
+  const diagramSteps = document.querySelectorAll('.diagram-step');
+  diagramSteps.forEach((step) => {
+    step.addEventListener('click', () => {
+      diagramSteps.forEach((s) => s.classList.remove('active'));
+      step.classList.add('active');
+    });
+  });
 })();

@@ -60,7 +60,7 @@ body {
 }
 
 /* ============ Tipografia ============ */
-h1, h2, h3, h4 { font-family: 'Source Serif 4', Georgia, serif; color: var(--primary); font-weight: 700; letter-spacing: -.015em; line-height: 1.18; margin: 0 0 .5em; }
+h1, h2, h3, h4 { font-family: 'Source Serif 4', Georgia, serif; color: var(--primary); font-weight: 700; letter-spacing: -.02em; line-height: 1.18; margin: 0 0 .5em; }
 h1 { font-size: clamp(2.1rem, 5.2vw, 3.4rem); font-weight: 900; letter-spacing: -.025em; }
 h2 { font-size: clamp(1.65rem, 3.6vw, 2.4rem); font-weight: 700; }
 h3 { font-size: clamp(1.2rem, 2.4vw, 1.45rem); }
@@ -80,7 +80,7 @@ a:hover { color: var(--primary); }
 .centered { text-align: center; }
 
 /* ============ Section base ============ */
-.section { padding: 3.8rem 0; }
+.section { padding: 7rem 0; }
 .section-title { margin-bottom: 1.2em; }
 .section-title.centered { text-align: center; }
 
@@ -169,7 +169,7 @@ a:hover { color: var(--primary); }
 }
 
 /* ============ SCENE (cena-mãe) ============ */
-.scene { padding: 4.5rem 0 3rem; }
+.scene { padding: 7rem 0; }
 .scene-time {
   font-family: 'Source Serif 4', Georgia, serif;
   font-style: italic;
@@ -203,7 +203,7 @@ a:hover { color: var(--primary); }
 }
 
 /* ============ PAIN list ============ */
-.section-pain { background: var(--bg-deep); padding: 4.5rem 0; }
+.section-pain { background: var(--bg-deep); padding: 7rem 0; }
 .pain-list { list-style: none; padding: 0; margin: 1.6em 0; }
 .pain-list li {
   background: var(--bg-card);
@@ -231,7 +231,7 @@ a:hover { color: var(--primary); }
 }
 
 /* ============ Consequence + Callouts ============ */
-.section-consequence { padding: 4.5rem 0; background: var(--bg); }
+.section-consequence { padding: 7rem 0; background: var(--bg); }
 .callout {
   background: var(--warn-bg);
   border-left: 4px solid var(--warn);
@@ -245,7 +245,7 @@ a:hover { color: var(--primary); }
 .callout-clean { background: var(--primary-10); border-left-color: var(--primary); }
 
 /* ============ Invalidation ============ */
-.section-invalidation { background: var(--bg-deep); padding: 4.5rem 0; }
+.section-invalidation { background: var(--bg-deep); padding: 7rem 0; }
 .triad {
   background: var(--primary);
   color: var(--bg);
@@ -364,7 +364,7 @@ a:hover { color: var(--primary); }
 .level-total strong { color: var(--accent-soft); }
 
 /* ============ Benefits ============ */
-.section-benefits { background: var(--bg); padding: 4.5rem 0; }
+.section-benefits { background: var(--bg); padding: 7rem 0; }
 .benefits-list { list-style: none; padding: 0; margin: 1.8em 0; }
 .benefits-list li {
   background: var(--bg-card);
@@ -387,7 +387,7 @@ a:hover { color: var(--primary); }
 }
 
 /* ============ Testimonials ============ */
-.section-testimonials { background: var(--bg-deep); padding: 4.5rem 0; }
+.section-testimonials { background: var(--bg-deep); padding: 7rem 0; }
 .testimonials-grid {
   display: grid;
   gap: 1.4em;
@@ -433,7 +433,7 @@ a:hover { color: var(--primary); }
 }
 
 /* ============ Offer ============ */
-.section-offer { background: var(--bg); padding: 5rem 0; }
+.section-offer { background: var(--bg); padding: 7rem 0; }
 .offer-block { margin-bottom: 2.5em; }
 .offer-section-title {
   font-family: 'Inter', sans-serif;
@@ -517,7 +517,7 @@ a:hover { color: var(--primary); }
 .price-anchors strong { color: var(--accent-soft); }
 
 /* ============ Objections (details) ============ */
-.section-objections { background: var(--bg-deep); padding: 4.5rem 0; }
+.section-objections { background: var(--bg-deep); padding: 7rem 0; }
 .obj-item {
   background: var(--bg-card);
   border-radius: var(--radius);
@@ -555,7 +555,7 @@ a:hover { color: var(--primary); }
 .obj-item p { padding: 0 1.5em 1.4em; margin: 0; color: var(--ink-soft); font-size: 1rem; line-height: 1.65; }
 
 /* ============ Guarantee ============ */
-.section-guarantee { background: var(--bg); padding: 4.5rem 0; text-align: center; }
+.section-guarantee { background: var(--bg); padding: 7rem 0; text-align: center; }
 .guarantee-shield {
   display: inline-flex;
   flex-direction: column;
@@ -573,10 +573,10 @@ a:hover { color: var(--primary); }
 .guarantee-condition { background: var(--accent-10); padding: 1.3em 1.5em; border-radius: var(--radius); border-left: 3px solid var(--accent); margin-top: 1.6em; }
 
 /* ============ Urgency ============ */
-.section-urgency { background: var(--bg-deep); padding: 4.5rem 0; }
+.section-urgency { background: var(--bg-deep); padding: 7rem 0; }
 
 /* ============ FAQ ============ */
-.section-faq { background: var(--bg); padding: 4.5rem 0; }
+.section-faq { background: var(--bg); padding: 7rem 0; }
 .faq-item {
   background: var(--bg-card);
   border-radius: var(--radius);
@@ -722,7 +722,7 @@ a:hover { color: var(--primary); }
 }
 
 /* TRIED CHIPS */
-.section-tried { background: var(--bg); padding: 4rem 0; }
+.section-tried { background: var(--bg); padding: 7rem 0; }
 .tried-intro { color: var(--ink-soft); font-size: 1.1rem; margin-bottom: 2em !important; }
 .tried-chips {
   display: flex;
@@ -800,7 +800,7 @@ a:hover { color: var(--primary); }
 .section-chain-img {
   background: linear-gradient(180deg, var(--primary) 0%, var(--primary-deep) 100%);
   color: var(--bg);
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 .section-chain-img h2.light { color: var(--accent-soft); }
 .big-claim-img {
@@ -862,7 +862,7 @@ a:hover { color: var(--primary); }
 .cq-item strong { color: var(--accent-soft); }
 
 /* COMPARISON section */
-.section-comparison { background: var(--bg); padding: 4.5rem 0; }
+.section-comparison { background: var(--bg); padding: 7rem 0; }
 .comp-intro { color: var(--ink-soft); font-size: 1.08rem; margin-bottom: 2em !important; max-width: 640px; margin-left: auto !important; margin-right: auto !important; }
 .comp-figure {
   max-width: 1000px;
@@ -874,7 +874,7 @@ a:hover { color: var(--primary); }
 .comp-figure img { display: block; width: 100%; height: auto; }
 
 /* MOCKUP section v2 — 4 phones grid */
-.section-mockup { background: var(--bg-deep); padding: 5rem 0; }
+.section-mockup { background: var(--bg-deep); padding: 7rem 0; }
 .mockup-eyebrow {
   display: inline-block;
   background: var(--accent-10);
@@ -1396,4 +1396,103 @@ a:hover { color: var(--primary); }
 /* Mobile tweak v1.7 */
 @media (max-width: 600px) {
   .t-contraste-tag { font-size: .64rem; }
+}
+
+/* =================================================
+   Premium UI additions — chips hover & interactive chain
+   ================================================= */
+
+.tchip {
+  transition: all var(--t-fast) !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+.tchip:hover {
+  background: var(--crit-bg) !important;
+  border-color: var(--crit) !important;
+  color: var(--crit) !important;
+  text-decoration: line-through !important;
+  transform: translateY(-2px);
+}
+
+.tchip:hover svg {
+  stroke: var(--crit) !important;
+}
+
+.chain-diagram-interactive {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem auto;
+  max-width: var(--maxw);
+  text-align: left;
+}
+
+.diagram-step {
+  background: rgba(250, 250, 247, 0.05);
+  border: 1px solid rgba(200, 160, 92, 0.25);
+  border-radius: var(--radius-lg);
+  padding: 1.8rem;
+  transition: all var(--t);
+  cursor: pointer;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+.diagram-step h4 {
+  color: var(--accent-soft) !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.diagram-step p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(250, 250, 247, 0.85);
+}
+
+.diagram-step:hover,
+.diagram-step.active {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  background: rgba(250, 250, 247, 0.12);
+}
+
+.diagram-step.active {
+  border-color: var(--accent);
+  background: rgba(200, 160, 92, 0.15);
+}
+
+.step-num {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.8rem;
+}
+
+.diagram-arrow {
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+@media (max-width: 880px) {
+  .chain-diagram-interactive {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .diagram-arrow {
+    transform: rotate(90deg);
+    margin: 0.5rem 0;
+  }
 }
